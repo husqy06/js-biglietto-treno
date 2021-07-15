@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Boolean Train</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">BOOLEAN TRAIN</div>
+            <div class="main">
+                <div class="image-spot">
+                    <img src="img/57097544-vecchio-motore-locomotiva-a-vapore-retrò-disegno-annata.jpg" alt="">
+                    <span>DAL 1910</span>
+                    <img src="img/unnamed.jpg" style="filter: grayscale(100%);" alt="">
+                    <span>AD OGGI</span>
+                </div>
+                <div class="biglietteria">
+                    <span>Prenota il tuo biglietto</span>
+                    <div class="ctn">
+                        <form name="myForm">
+                            <p>Quanti km desidera percorrere?</p>
+                            <input type="number" id="txtKm" min="0" required />
+                            <p>Quanti anni ha?</p>
+                            <input type="number" id="txtEta" min="0" required />
+                            <p><button id="btnCalcola">Calcola</button></p>
+                            <p class="lastp">Totale: <p id="totale" class="lastp"></p>€</p>
+                            <button id="btn">Acquista</button>
+                        </form>
+                    </div>
+                    <span>OFFERTE DEl MESE <img src="img/extra-sconto.jpg" alt=""></span>
+                    <p>Se sei minorenne hai diritto ad'uno sconto del 20%</p>
+                    <p>Se possiedi più di 65 anni hai diritto ad'uno sconto del 40%</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
